@@ -17,5 +17,11 @@ int main()
 	mahasiswa mhs{ 1 };     //project mhs
 	mhs.showNim();          //member acces operator
 
-	mahasiswa& ref = mhs;
+	mahasiswa& ref = mhs;   //pointer reference refmhs
+	ref.nim = 2; 
+	mhs.showNim();
+
+	mahasiswa* pMhs = &mhs;
+	pMhs->nim = 3;
+
 }
