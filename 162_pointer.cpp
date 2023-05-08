@@ -18,7 +18,7 @@ int main()
 	mhs.showNim();          //member acces operator
 
 	mahasiswa& ref = mhs;   //pointer reference refmhs
-	ref.nim = 2; 
+	ref.nim = 2;
 	mhs.showNim();
 
 	mahasiswa* pMhs = &mhs;         //pointer dereference pMhs
@@ -26,4 +26,4 @@ int main()
 	mhs.showNim();
 	system("pause");
 	return 0;
-}
+};
