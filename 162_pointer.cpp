@@ -25,5 +25,5 @@ int main()
 	pMhs->nim = 3;                  //Arrow Operator 
 	mhs.showNim();
 	system("pause");
-	return 0;
+	return 0; 
 };
