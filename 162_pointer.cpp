@@ -14,5 +14,8 @@ void mahasiswa::showNim() {     //implementasi method diluar class
 
 int main()
 {
-	mahasiswa mhs{ 1 };
+	mahasiswa mhs{ 1 };     //project mhs
+	mhs.showNim();          //member acces operator
+
+	mahasiswa& ref = mhs;
 }
